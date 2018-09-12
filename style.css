@@ -1,71 +1,68 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
     background: #777;
     width: 960px;
     font-size: 18px;
+    text-align:center;
 }
 header {
     background: #ebebeb;
     padding:30px;
-    text-align:center;
     margin:15px;
 }
 nav {
     background: #ebebeb;
-    text-align: center;
     padding:30px;
     margin:15px;
 }
 section {
     background: #ebebeb;
     width:400px;
-    height:200px;
     padding:20px;
     margin:15px;
+    height:200px;
     float:left;
-    text-align:center;
 }
 aside {
     background: #ebebeb;
     width:400px;
-    height:200px;
     padding:20px;
     margin:15px;
     float:right;
-    text-align:center;
+    height:200px;
 }
 footer {
     background: #ebebeb;
     padding:30px;
-    text-align:center;
     margin:15px;
-    position:absolute;
+    position:relative;
     bottom:0;
-    width:100%;
+    width:875px;
 }
 article {
     color: #ebebeb;
     background: #777;
     width:350px;
     margin:20px;
-    height:135px;
-    text-align:center;
+    height:115px;
 }
 h1 {
     color: #77777777;
     background: #ebebeb;
     width:495px;
     margin:20px;
-    text-align:center;
 }
 p {
     color: #777;
     background: #ebebeb;
     width:325px;
     margin:10px;
-    text-align:center;
-    height:5px;
 }
 section:after {
     content: "";
